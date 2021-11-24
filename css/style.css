@@ -1,0 +1,36 @@
+body{
+    margin: -1% 0%;
+    overflow-x: hidden;
+    background: #010915;
+}
+
+#rightContainer{
+    background-color: rgba(224,240,256,0.3);
+    right: 0px;
+    width: 40vw;
+    height: 100vh;
+
+    position: absolute;
+}
+.titleContainer{
+    opacity: 1.0;
+    background-color: rgba(256,256,256,0.7);
+    border: 3px solid #000;
+    border-radius: 7px;
+    position: absolute;
+
+    width: 25vw;
+    right: 7.5vw;
+    top: 20vh;
+}
+
+.title{
+    color: black;
+    opacity: 1.0;
+
+    font-size: 2.5vw;
+    text-align: center;
+}
+.title span{
+    font-size: 3vw;
+}
