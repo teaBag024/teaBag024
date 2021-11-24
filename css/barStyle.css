@@ -11,8 +11,9 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-span{
+.blank{
     padding: 0vw 2.5vw;
+    border-right: none;
 }
 li {
     border-right:1px solid #bbb;
