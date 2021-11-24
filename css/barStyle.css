@@ -1,0 +1,29 @@
+#navBar{
+    background-color: #9c9c9c;
+
+    top: 10vh;
+    font-size: 3vh;
+    color: #010915;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+span{
+    padding: 0vw 2.5vw;
+}
+li {
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 1.5vh 2.5vw 1.5vh 1vw;
+    text-decoration: none;
+}
