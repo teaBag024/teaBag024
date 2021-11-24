@@ -1,19 +1,19 @@
 body{
-    margin: -1% 0%;
+    margin: -0.5%;
     overflow: hidden;
     background: #010915;
     color: #FFF;
 }
 #leftContainer{
-    width: 62.5vw;
-    height: 95vh;
+    width: 5vw;
+    height: 85vh;
     display: inline-block;
     vertical-align: top;
 }
 #rightContainer{
     background-color: rgba(224,240,256,0.3);
     width: 30vw;
-    height: 95vh;
+    height: 85vh;
     display: inline-block;
 
     vertical-align: top;

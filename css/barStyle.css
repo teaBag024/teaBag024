@@ -1,7 +1,6 @@
 #navBar{
     background-color: #9c9c9c;
 
-    top: 10vh;
     font-size: 3vh;
     color: #010915;
 }
@@ -12,7 +11,7 @@ ul {
     overflow: hidden;
 }
 .blank{
-    padding: 0vw 2.5vw;
+    padding: 0vw 3.5vw;
     border-right: none;
 }
 li {
@@ -25,6 +24,6 @@ li:last-child {
 ul li{
     display: inline-block;
     text-align: center;
-    padding: 1.5vh 2.5vw 1.5vh 1vw;
+    padding: 2.5vh 2.5vw 1.5vh 1vw;
     text-decoration: none;
 }
