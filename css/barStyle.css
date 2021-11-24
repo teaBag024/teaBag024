@@ -24,6 +24,6 @@ li:last-child {
 ul li{
     display: inline-block;
     text-align: center;
-    padding: 2.5vh 2.5vw 1.5vh 1vw;
+    padding: 2.5vh 3vw 1.5vh 1vw;
     text-decoration: none;
 }
