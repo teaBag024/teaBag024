@@ -1,22 +1,30 @@
 body{
     margin: -0.5%;
-    overflow: hidden;
+    overflow-x: hidden;
     background: #010915;
     color: #FFF;
 }
-#leftContainer{
-    width: 5vw;
-    height: 85vh;
+#rightContainer{
+    width: 60vw;
+    height: 85px;
     display: inline-block;
     vertical-align: top;
+
+    display: inline-block;
+    padding: 0vh 2.5vw 1.5vh 1vw;
+    line-height: 3.5vh;
+    text-decoration: none;
 }
-#rightContainer{
+#leftContainer{
     background-color: rgba(224,240,256,0.3);
     width: 30vw;
-    height: 85vh;
+    height: 45vw;
     display: inline-block;
+    border-radius: 5px;
 
     vertical-align: top;
+
+    margin-left: 5vw;
 }
 
 .title{
@@ -35,4 +43,39 @@ body{
 }
 .title span{
     font-size: 3vw;
+}
+
+.imgSlide{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0vh 2.5vw 0vh 0vw;
+}
+.imgSlide .block{
+    display: block;
+    background: #010915;
+
+    margin: 2vh 0vw;
+    padding: 2vw;
+}
+.blurb{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1vw;
+    padding: 3.5vh 2.5vw;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.blurb .blurbTitle{
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+
+#containerAbout{
+    display: block;
+    background-color: rgba(224,240,256,0.3);
+
+    width: 40vw;
+    margin: 20vh 0vw 0vh 47.5vw;
+    padding: 3.5vh 2.5vw;
+    border-radius: 5px;
 }
