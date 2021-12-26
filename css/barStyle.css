@@ -1,4 +1,4 @@
-/*#navBar{
+#navBar{
     background-color: #9c9c9c;
 
     font-size: 3vh;
@@ -14,11 +14,11 @@ ul {
     padding: 0vw 3.5vw;
     border-right: none;
 }
-#navBar li {
+li {
     border-right:1px solid #bbb;
 }
 
-#navBar li:last-child {
+li:last-child {
     border-right: none;
 }
 ul li{
@@ -26,5 +26,4 @@ ul li{
     text-align: center;
     padding: 2.5vh 2.5vw 1.5vh 1vw;
     text-decoration: none;
-}*/
-
+}
